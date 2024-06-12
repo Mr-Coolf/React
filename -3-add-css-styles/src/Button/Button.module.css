@@ -1,0 +1,21 @@
+.myBtn{
+    padding: 10px 15px;
+    background-color: rgba(100, 148, 237, 0.825);
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 10px 9px hsla(0, 0%, 0%, 0.353);
+    transition: 0.2s background-color ease-in-out, transform 0.2s ease-in-out;
+  }
+  .myBtn:hover{
+    background-color: rgba(72, 117, 200, 0.825);
+  }
+  .myBtn:active{
+    background-color: rgb(81, 117, 184);
+    transform: translateY(1px);
+  }
+  

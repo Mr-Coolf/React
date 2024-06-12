@@ -1,0 +1,11 @@
+1. Install nodeJS
+2. In folder terminal write "npm create vite@latest"
+    npm -> node packet manager
+    vite -> development server
+    latest -> last version
+3. Insert project name
+4. Choose framework "React" with arrow keys
+5. Choose default JS with arrow keys
+6. Run "cd my-project-name"
+7. Run "npm install"
+8. Run "npm run dev"
