@@ -72,10 +72,10 @@ button{
 li span{
   user-select: text;
   margin: 10px;
-  border: 2.5px solid black;
+  /* border: 2.5px solid black; */
   border-radius: 12px;
   padding: 10px 15px;
-  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.438);
+  text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.288);
 }
 .to-do-list{
   margin: 10px 15px;
@@ -133,4 +133,8 @@ li{
   margin-bottom: 6px;
   margin-top: 6px;
   border-radius: 30px;
+}
+.text{
+  flex: 1;
+  text-align: center;
 }
