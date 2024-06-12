@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 function ToDoList() {
 
-    const [tasks, setTasks] = useState(["gfsgjfih", "b", "b"]);
+    const [tasks, setTasks] = useState(["Sleep", "Eat", "Study"]);
     const [newTask, setNewTask] = useState("");
 
     // useEffect(() => window.addEventListener("keyup", event => {
