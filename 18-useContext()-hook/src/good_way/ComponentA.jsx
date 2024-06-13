@@ -6,8 +6,12 @@ export const UserContext = createContext();
 function ComponentA() {
     const [user, setUser] = useState("Human");
     useEffect(() => {
-        const intervalID = setInterval(() => {setUser(prevUser => prevUser + "a")}, 1000);
-    }, [])
+            const intervalID = setInterval(() => {
+            setUser(prevUser => prevUser + "a")}, 1000);
+            return () => {
+                clearInterval(intervalID)
+            }
+        }, [])
     return(
     <div className="box">
         <h1>ComponentA</h1>
